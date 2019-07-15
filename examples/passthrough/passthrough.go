@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/billziss-gh/cgofuse/examples/shared"
-	"github.com/billziss-gh/cgofuse/fuse"
+	"github.com/stevegt/cgofuse/examples/shared"
+	"github.com/stevegt/cgofuse/fuse"
 )
 
 func trace(vals ...interface{}) func(vals ...interface{}) {
